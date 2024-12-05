@@ -24,7 +24,7 @@ jobs:
           5
           3
         expected-output: '8'
-        comparison-method: contains
+        comparison-method: exact
         timeout: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
