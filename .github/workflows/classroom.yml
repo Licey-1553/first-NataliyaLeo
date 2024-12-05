@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: test1
         setup-command: ''
-        command: "./main.py"
+        command: python main.py
         input: |-
           5
           3
